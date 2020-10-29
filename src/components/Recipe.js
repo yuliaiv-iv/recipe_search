@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 function Recipe({ image, id, calories }) {
-
+  
   return (
     <li className="recipe__card" key={id}>
       <h2 className="recipe__name">{id}</h2>
